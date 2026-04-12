@@ -2,6 +2,7 @@ import { Routes, Route, NavLink } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Tiere from "./pages/Tiere";
+import TierDetail from "./pages/TierDetail";
 import Karte from "./pages/Karte";
 import Bewertung from "./pages/Bewertung";
 import Login from "./pages/Login";
@@ -28,6 +29,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/tiere" element={<Tiere />} />
+          <Route path="/tiere/:id" element={<TierDetail />} />
           <Route path="/karte" element={<Karte />} />
           <Route path="/bewertung" element={<Bewertung />} />
           <Route path="/login" element={<Login />} />
