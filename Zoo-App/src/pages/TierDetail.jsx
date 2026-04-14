@@ -72,7 +72,7 @@ export default function TierDetail() {
           <span className="rating-stars">{renderStars(tier.rating)}</span>
           <span className="rating-text">{tier.rating} / 5 ({tier.bewertungen} Bewertungen)</span>
         </div>
-        <button className="button-review">+ Bewertung schreiben</button>
+        <Link to={`/bewertung/${tier.id}`} className="button-review">+ Bewertung schreiben</Link>
       </div>
     </section>
   );
