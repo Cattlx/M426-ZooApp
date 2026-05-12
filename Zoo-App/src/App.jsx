@@ -21,7 +21,6 @@ export default function App() {
           </NavLink>
           <NavLink to="/tiere">Tiere</NavLink>
           <NavLink to="/karte">Karte</NavLink>
-          <NavLink to="/bewertung">Bewertung</NavLink>
           <NavLink to="/registrieren" className="button-link">
             Registrieren
           </NavLink>
