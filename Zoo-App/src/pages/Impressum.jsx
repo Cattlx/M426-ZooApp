@@ -1,7 +1,7 @@
 export default function Impressum() {
   return (
     <div>
-      <h1>Impressum</h1>
+
 <p
   style={{
     maxWidth: "700px",
