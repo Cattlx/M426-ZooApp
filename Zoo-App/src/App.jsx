@@ -52,9 +52,28 @@ export default function App() {
         </Routes>
       </main>
 
-      <footer className="footer">
-        <NavLink to="/impressum">Impressum</NavLink>
-      </footer>
+<footer
+  className="footer"
+  style={{
+    marginTop: "40px",
+    padding: "20px",
+    textAlign: "center",
+    borderTop: "1px solid #ddd",
+    backgroundColor: "#f8f8f8",
+  }}
+>
+  <NavLink
+    to="/impressum"
+    style={{
+      textDecoration: "none",
+      color: "#333",
+      fontWeight: "600",
+      fontSize: "16px",
+    }}
+  >
+    Impressum
+  </NavLink>
+</footer>
     </div>
   );
 }
