@@ -37,7 +37,7 @@ export default function TierDetail() {
   return (
     <section className="page tier-detail-page">
       <Link to="/tiere" className="back-link">← Zurück</Link>
-      
+
       <div className="detail-hero">
         <div className="detail-emoji-large">{tier.emoji}</div>
         <h1>{tier.name}</h1>
@@ -61,8 +61,8 @@ export default function TierDetail() {
 
       <div className="detail-specs">
         <div className="spec-item">
-          <span className="spec-label">Gewicht:</span>
-          <span className="spec-value">{tier.herkunft} A3</span>
+          <span className="spec-label">Lebensort:</span>
+          <span className="spec-value">{tier.herkunft}</span>
         </div>
       </div>
 
