@@ -23,7 +23,7 @@ export default function App() {
           <NavLink to="/karte">Karte</NavLink>
           <NavLink to="/registrieren" className="button-link">
             Registrieren
-          </NavLink>s
+          </NavLink>
           <NavLink to="/profil">Profil</NavLink>
         </nav>
       </header>
