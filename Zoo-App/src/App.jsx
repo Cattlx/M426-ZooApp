@@ -15,16 +15,20 @@ export default function App() {
     <div className="app-shell">
       <header className="navbar">
         <div className="logo">ZooApp</div>
+
         <nav>
           <NavLink to="/" end>
             Start
           </NavLink>
+
           <NavLink to="/tiere">Tiere</NavLink>
           <NavLink to="/karte">Karte</NavLink>
           <NavLink to="/bewertung">Bewertung</NavLink>
+
           <NavLink to="/registrieren" className="button-link">
             Registrieren
           </NavLink>
+
           <NavLink to="/profil">Profil</NavLink>
         </nav>
       </header>
@@ -38,6 +42,7 @@ export default function App() {
           <Route path="/bewertung/:id" element={<Bewertung />} />
           <Route path="/registrieren" element={<Register />} />
           <Route path="/login" element={<Login />} />
+
           <Route
             path="/profil"
             element={
@@ -48,7 +53,10 @@ export default function App() {
           />
         </Routes>
       </main>
+
+      <footer className="footer">
+        <NavLink to="/impressum">Impressum</NavLink>
+      </footer>
     </div>
   );
 }
-
