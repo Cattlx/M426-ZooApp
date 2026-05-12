@@ -9,6 +9,7 @@ import Login from "./pages/Login";
 import Register from "./pages/Register";
 import Profile from "./pages/Profile";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Impressum from "./pages/Impressum";
 
 export default function App() {
   return (
@@ -40,6 +41,7 @@ export default function App() {
           <Route path="/bewertung/:id" element={<Bewertung />} />
           <Route path="/registrieren" element={<Register />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/Impressum" element={<Impressum />} />
 
           <Route
             path="/profil"
